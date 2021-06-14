@@ -1,10 +1,11 @@
-import Header from "../components/Header"
+import Header from "../components/Header";
+import Countries from '../components/Countries';
 
 const Home = () =>{
     return(
         <div className="home">
             <Header/>
-            <h1>Home</h1>
+            <Countries/>
         </div>
     )
    
